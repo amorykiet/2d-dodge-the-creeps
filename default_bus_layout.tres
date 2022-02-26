@@ -1,0 +1,10 @@
+[gd_resource type="AudioBusLayout" load_steps=2 format=2]
+
+[sub_resource type="AudioEffectDelay" id=1]
+resource_name = "Delay"
+
+[resource]
+bus/0/solo = true
+bus/0/volume_db = -3.04954
+bus/0/effect/0/effect = SubResource( 1 )
+bus/0/effect/0/enabled = false
